@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Maker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+            <a href="#" class="logo">
+                <img src="./img/logo.png" alt="logo de la compañia" class="logo-img">
+                <h1 class="logo-nombre"><img src="./img/nombrelogo.png"></h1>
+            </a>
+            <nav>
+                <a href="" class="nav-link">Inicio</a>
+                <a href="" class="nav-link">Contactanos</a>
+                <div class="boxhead">
+                    <div class="fronth"><span class="icon-shopping-cart"></span></div>
+                    <div class="backh"></div>
+                </div>
+            </nav>
+   </header>
+
+    <div class="supercontenedor">
+        <div class="contenedor">
+            <div class="card">
+                <div class="card-encabezado">
+                    <img src="./img/esponjosoe.jpg" alt="">
+                </div>
+                <div class="card-contenido">
+                    <div class="info-pastel desplazar">Pastel Esponjoso</div>
+                    <div class="info-pastel desplazar">Costo $400.00</div>
+                    <div class="info-pastel desplazar">
+                        <p>Este tipo de pastel se logra utilizando huevos enteros, separados o solo las claras, mezclados con azúcar y mantequilla. Se pueden elegir sabores como el chocolate o la vainilla y por último complementarlos con ingredientes secos como harina y otros polvos.<p>
+                    </div><br>
+                    <div class="sabo-pastel desplazar">Sabor del Pastel</div>
+                    <div class="sabo-pastel desplazar">
+                        <p>Seleccione solo 1 sabor para la base del pastel:</p><br>
+                        <input type="radio" id="sabor1" name="sabores" value="Chocolate">
+                        <label for="sabor1">Chocolate</label><br>
+                        <input type="radio" id="sabor2" name="sabores" value="Vainilla">
+                        <label for="sabor2">Vainilla</label><br>
+                        <input type="radio" id="sabor3" name="sabores" value="Fresa">
+                        <label for="sabor3">Fresa</label><br>
+                        <input type="radio" id="sabor4" name="sabores" value="Limon">
+                        <label for="sabor4">Limon</label><br>
+                        <input type="radio" id="sabor5" name="sabores" value="Queso">
+                        <label for="sabor5">Queso</label><br><br>
+                    </div>
+                    <div class="ador-pastel desplazar">Adornos del Pastel</div>
+                    <div class="ador-pastel desplazar">
+                        Seleccione solo 2 adornos para el pastel:<br>
+                        <p>Costo de $100 por adorno</p><br>
+                        <input type="checkbox" id="adorno1" name="adorno1" value="Chantilly">
+                        <label for="adorno1">Chantilly</label><br>
+                        <input type="checkbox" id="adorno2" name="adorno2" value="Crema de Mantequilla">
+                        <label for="adorno2">Crema de Mantequilla</label><br>
+                        <input type="checkbox" id="adorno3" name="adorno3" value="Ganache">
+                        <label for="adorno3">Ganache</label><br>
+                        <input type="checkbox" id="adorno4" name="adorno4" value="Merengue">
+                        <label for="adorno4">Merengue</label><br>
+                        <input type="checkbox" id="adorno5" name="adorno5" value="Glaseado">
+                        <label for="adorno5">Glaseado</label><br>
+                        <input type="checkbox" id="adorno6" name="adorno6" value="Fondant">
+                        <label for="adorno6">Fondant</label><br><br>
+                    </div>
+                </div>
+                <div class="card-accion">
+                    <button class="botones agrandar">Ordenar
+                    </button>
+                </div>
+            </div>    
+
+            <div class="card">
+                <div class="card-encabezado">
+                    <img src="./img/mantequillae.jpg" alt="">
+                </div>
+                <div class="card-contenido">
+                    <div class="info-pastel desplazar">Pastel de Mantequilla</div>
+                    <div class="info-pastel desplazar">Costo $200.00</div>
+                    <div class="info-pastel desplazar">
+                        <p>Por otro lado, están los pasteles de mantequilla, este tipo de pastel se elabora por medio del método cemage o acremado, el cual consiste en batir la mantequilla a temperatura ambiente junto con azúcar.<p>
+                    </div><br>
+                    <div class="sabo-pastel desplazar">Sabor del Pastel</div>
+                    <div class="sabo-pastel desplazar">
+                        <p>Seleccione solo 1 sabor para la base del pastel:</p><br>
+                        <input type="radio" id="sabor1" name="sabores" value="Chocolate">
+                        <label for="sabor1">Chocolate</label><br>
+                        <input type="radio" id="sabor2" name="sabores" value="Vainilla">
+                        <label for="sabor2">Vainilla</label><br>
+                        <input type="radio" id="sabor3" name="sabores" value="Fresa">
+                        <label for="sabor3">Fresa</label><br>
+                        <input type="radio" id="sabor4" name="sabores" value="Limon">
+                        <label for="sabor4">Limon</label><br>
+                        <input type="radio" id="sabor5" name="sabores" value="Queso">
+                        <label for="sabor5">Queso</label><br><br>
+                    </div>
+                    <div class="ador-pastel desplazar">Adornos del Pastel</div>
+                    <div class="ador-pastel desplazar">
+                        Seleccione solo 2 adornos para el pastel:<br>
+                        <p>Costo de $100 por adorno</p><br>
+                        <input type="checkbox" id="adorno1" name="adorno1" value="Chantilly">
+                        <label for="adorno1">Chantilly</label><br>
+                        <input type="checkbox" id="adorno2" name="adorno2" value="Crema de Mantequilla">
+                        <label for="adorno2">Crema de Mantequilla</label><br>
+                        <input type="checkbox" id="adorno3" name="adorno3" value="Ganache">
+                        <label for="adorno3">Ganache</label><br>
+                        <input type="checkbox" id="adorno4" name="adorno4" value="Merengue">
+                        <label for="adorno4">Merengue</label><br>
+                        <input type="checkbox" id="adorno5" name="adorno5" value="Glaseado">
+                        <label for="adorno5">Glaseado</label><br>
+                        <input type="checkbox" id="adorno6" name="adorno6" value="Fondant">
+                        <label for="adorno6">Fondant</label><br><br>
+                    </div>
+                </div>
+                <div class="card-accion">
+                    <button class="botones agrandar">Ordenar
+                    </button>
+                </div>
+            </div>    
+
+            <div class="card">
+                <div class="card-encabezado">
+                    <img src="./img/merenguee.jpg" alt="">
+                </div>
+                <div class="card-contenido">
+                    <div class="info-pastel desplazar">Pastel de Merengue</div>
+                    <div class="info-pastel desplazar">Costo $200.00</div>
+                    <div class="info-pastel desplazar">    
+                        <p>Los deliciosos pasteles de merengue se caracterizan por tener una estructura espumosa creada por el batido del huevo en conjunto con el aire, de esta forma se logra una masa extremadamente ligera y tierna, el vapor que se produce en el horno puede duplicar su volumen.<p>
+                    </div><br>
+                    <div class="sabo-pastel desplazar">Sabor del Pastel</div>
+                    <div class="sabo-pastel desplazar">
+                        <p>Seleccione solo 1 sabor para la base del pastel:</p><br>
+                        <input type="radio" id="sabor1" name="sabores" value="Chocolate">
+                        <label for="sabor1">Chocolate</label><br>
+                        <input type="radio" id="sabor2" name="sabores" value="Vainilla">
+                        <label for="sabor2">Vainilla</label><br>
+                        <input type="radio" id="sabor3" name="sabores" value="Fresa">
+                        <label for="sabor3">Fresa</label><br>
+                        <input type="radio" id="sabor4" name="sabores" value="Limon">
+                        <label for="sabor4">Limon</label><br>
+                        <input type="radio" id="sabor5" name="sabores" value="Queso">
+                        <label for="sabor5">Queso</label><br><br>
+                    </div>
+                    <div class="ador-pastel desplazar">Adornos del Pastel</div>
+                    <div class="ador-pastel desplazar">
+                        Seleccione solo 2 adornos para el pastel:<br>
+                        <p>Costo de $100 por adorno</p><br>
+                        <input type="checkbox" id="adorno1" name="adorno1" value="Chantilly">
+                        <label for="adorno1">Chantilly</label><br>
+                        <input type="checkbox" id="adorno2" name="adorno2" value="Crema de Mantequilla">
+                        <label for="adorno2">Crema de Mantequilla</label><br>
+                        <input type="checkbox" id="adorno3" name="adorno3" value="Ganache">
+                        <label for="adorno3">Ganache</label><br>
+                        <input type="checkbox" id="adorno4" name="adorno4" value="Merengue">
+                        <label for="adorno4">Merengue</label><br>
+                        <input type="checkbox" id="adorno5" name="adorno5" value="Glaseado">
+                        <label for="adorno5">Glaseado</label><br>
+                        <input type="checkbox" id="adorno6" name="adorno6" value="Fondant">
+                        <label for="adorno6">Fondant</label><br><br>
+                    </div>
+                </div>
+                <div class="card-accion">
+                    <button class="botones agrandar">Ordenar
+                    </button>
+                </div>
+            </div>    
+        
+            <div class="card">
+                <div class="card-encabezado">
+                    <img src="./img/aceitee.jpg" alt="">
+                </div>
+                <div class="card-contenido">
+                    <div class="info-pastel desplazar">Pastel de Aceite</div>
+                    <div class="info-pastel desplazar">Costo $200.00</div>
+                    <div class="info-pastel desplazar">
+                        <p>En este tipo de pasteles se usa aceite en lugar de mantequilla, el resultado es un producto húmedo y con una estructura suave, a diferencia de las recetas que usan mantequilla que suelen solidificarse.<p>
+                    </div><br>
+                    <div class="sabo-pastel desplazar">Sabor del Pastel</div>
+                    <div class="sabo-pastel desplazar">
+                        <p>Seleccione solo 1 sabor para la base del pastel:</p><br>
+                        <input type="radio" id="sabor1" name="sabores" value="Chocolate">
+                        <label for="sabor1">Chocolate</label><br>
+                        <input type="radio" id="sabor2" name="sabores" value="Vainilla">
+                        <label for="sabor2">Vainilla</label><br>
+                        <input type="radio" id="sabor3" name="sabores" value="Fresa">
+                        <label for="sabor3">Fresa</label><br>
+                        <input type="radio" id="sabor4" name="sabores" value="Limon">
+                        <label for="sabor4">Limon</label><br>
+                        <input type="radio" id="sabor5" name="sabores" value="Queso">
+                        <label for="sabor5">Queso</label><br><br>
+                    </div>
+                    <div class="ador-pastel desplazar">Adornos del Pastel</div>
+                    <div class="ador-pastel desplazar">
+                        Seleccione solo 2 adornos para el pastel:<br>
+                        <p>Costo de $100 por adorno</p><br>
+                        <input type="checkbox" id="adorno1" name="adorno1" value="Chantilly">
+                        <label for="adorno1">Chantilly</label><br>
+                        <input type="checkbox" id="adorno2" name="adorno2" value="Crema de Mantequilla">
+                        <label for="adorno2">Crema de Mantequilla</label><br>
+                        <input type="checkbox" id="adorno3" name="adorno3" value="Ganache">
+                        <label for="adorno3">Ganache</label><br>
+                        <input type="checkbox" id="adorno4" name="adorno4" value="Merengue">
+                        <label for="adorno4">Merengue</label><br>
+                        <input type="checkbox" id="adorno5" name="adorno5" value="Glaseado">
+                        <label for="adorno5">Glaseado</label><br>
+                        <input type="checkbox" id="adorno6" name="adorno6" value="Fondant">
+                        <label for="adorno6">Fondant</label><br><br>
+                    </div>
+                </div>
+                <div class="card-accion">
+                    <button class="botones agrandar">Ordenar
+                    </button>
+                </div>    
+            </div>
+
+            <div class="card">
+                <div class="card-encabezado">
+                    <img src="./img/fermentadoe.jpg" alt="">
+                </div>
+                <div class="card-contenido">
+                    <div class="info-pastel desplazar">Pastel Fermentado</div>
+                    <div class="info-pastel desplazar">Costo $200.00</div>
+                    <div class="info-pastel desplazar">    
+                        <p>Estos pasteles se hacen con levadura, por lo que son una mezcla de panadería y pastelería, se preparan normalmente con una masa similar a la del pan, pero añadiendo ingredientes como azúcar, huevos y crema; de esta forma la masa se vuelve más rica y se parece más a los pasteles.<p>
+                    </div><br>
+                    <div class="sabo-pastel desplazar">Sabor del Pastel</div>
+                    <div class="sabo-pastel desplazar">
+                        <p>Seleccione solo 1 sabor para la base del pastel:</p><br>
+                        <input type="radio" id="sabor1" name="sabores" value="Chocolate">
+                        <label for="sabor1">Chocolate</label><br>
+                        <input type="radio" id="sabor2" name="sabores" value="Vainilla">
+                        <label for="sabor2">Vainilla</label><br>
+                        <input type="radio" id="sabor3" name="sabores" value="Fresa">
+                        <label for="sabor3">Fresa</label><br>
+                        <input type="radio" id="sabor4" name="sabores" value="Limon">
+                        <label for="sabor4">Limon</label><br>
+                        <input type="radio" id="sabor5" name="sabores" value="Queso">
+                        <label for="sabor5">Queso</label><br><br>
+                    </div>
+                    <div class="ador-pastel desplazar">Adornos del Pastel</div>
+                    <div class="ador-pastel desplazar">
+                        Seleccione solo 2 adornos para el pastel:<br>
+                        <p>Costo de $100 por adorno</p><br>
+                        <input type="checkbox" id="adorno1" name="adorno1" value="Chantilly">
+                        <label for="adorno1">Chantilly</label><br>
+                        <input type="checkbox" id="adorno2" name="adorno2" value="Crema de Mantequilla">
+                        <label for="adorno2">Crema de Mantequilla</label><br>
+                        <input type="checkbox" id="adorno3" name="adorno3" value="Ganache">
+                        <label for="adorno3">Ganache</label><br>
+                        <input type="checkbox" id="adorno4" name="adorno4" value="Merengue">
+                        <label for="adorno4">Merengue</label><br>
+                        <input type="checkbox" id="adorno5" name="adorno5" value="Glaseado">
+                        <label for="adorno5">Glaseado</label><br>
+                        <input type="checkbox" id="adorno6" name="adorno6" value="Fondant">
+                        <label for="adorno6">Fondant</label><br><br>
+                    </div>
+                </div>
+                <div class="card-accion">
+                    <button class="botones agrandar">Ordenar
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-encabezado">
+                    <img src="./img/natillae.jpg" alt="">
+                </div>
+                <div class="card-contenido">
+                    <div class="info-pastel desplazar">Pastel de Natilla</div>
+                    <div class="info-pastel desplazar">Costo $200.00</div>
+                    <div class="info-pastel desplazar">    
+                        <p>Este tipo de pasteles requiere de la preparación de una natilla o crema espesa que pueda cocinarse en baño maría o en el horno a una temperatura media-baja, algunos de los más famosos son los pasteles de queso o cheesecakes.<p>
+                    </div><br>
+                    <div class="sabo-pastel desplazar">Sabor del Pastel</div>
+                    <div class="sabo-pastel desplazar">
+                        <p>Seleccione solo 1 sabor para la base del pastel:</p><br>
+                        <input type="radio" id="sabor1" name="sabores" value="Chocolate">
+                        <label for="sabor1">Chocolate</label><br>
+                        <input type="radio" id="sabor2" name="sabores" value="Vainilla">
+                        <label for="sabor2">Vainilla</label><br>
+                        <input type="radio" id="sabor3" name="sabores" value="Fresa">
+                        <label for="sabor3">Fresa</label><br>
+                        <input type="radio" id="sabor4" name="sabores" value="Limon">
+                        <label for="sabor4">Limon</label><br>
+                        <input type="radio" id="sabor5" name="sabores" value="Queso">
+                        <label for="sabor5">Queso</label><br><br>
+                    </div>
+                    <div class="ador-pastel desplazar">Adornos del Pastel</div>
+                    <div class="ador-pastel desplazar">
+                        Seleccione solo 2 adornos para el pastel:<br>
+                        <p>Costo de $100 por adorno</p><br>
+                        <input type="checkbox" id="adorno1" name="adorno1" value="Chantilly">
+                        <label for="adorno1">Chantilly</label><br>
+                        <input type="checkbox" id="adorno2" name="adorno2" value="Crema de Mantequilla">
+                        <label for="adorno2">Crema de Mantequilla</label><br>
+                        <input type="checkbox" id="adorno3" name="adorno3" value="Ganache">
+                        <label for="adorno3">Ganache</label><br>
+                        <input type="checkbox" id="adorno4" name="adorno4" value="Merengue">
+                        <label for="adorno4">Merengue</label><br>
+                        <input type="checkbox" id="adorno5" name="adorno5" value="Glaseado">
+                        <label for="adorno5">Glaseado</label><br>
+                        <input type="checkbox" id="adorno6" name="adorno6" value="Fondant">
+                        <label for="adorno6">Fondant</label><br><br>
+                    </div>
+                </div>    
+                <div class="card-accion">
+                    <button class="botones agrandar">Ordenar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="cliente">              
+                
+                <form action="/accion.js" id="form1" method="post"><br><br><br>
+                <h2>Datos del cliente</h2><br><br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="correo">Correo electrónico:</label>
+                <input type="mail" id="correo" name="correo"><br><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="tel" name="telefono" maxlength="10"><br><br>
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="dir" name="direccion"><br><br>
+                <label for="descripcion">Descripción del Pastel:</label>
+                <input type="text" id="descrip" name="descripcion"><br><br><br>
+                <input type="submit" value="Ordenar" id="boton">
+            </form>
+            
+        </div>
+        <br><br><br><br>
+        <footer class="pie-pagina">
+            <div class="grupo1">
+                <div class="caja">
+                    <figure>
+                        <a href="#">
+                            <img src="./img/logo.png" alt="logo de la empresa">
+                        </a>
+                    </figure>
+                </div>
+                <div class="caja">
+                    <h2>Contacto</h2>
+                    <p>hola@cakemaker.com</p><br>
+                    <h2>Horarios de atención</h2>
+                    <p>09:00 - 17:00 Lunes a Sabado</p>
+                    <p>10:00 - 14:00 Domingo</p><br>
+                </div>
+                
+                <div class="redes-contenedor">
+                    <h2>Siguenos</h2>
+                    <div class="box">
+                        <div class="front"><span class="icon-facebook"></span></div>
+                        <div class="back"></div>
+                    </div>
+                    <div class="box">
+                        <div class="front"><span class="icon-social-instagram"></span></div>
+                        <div class="back"></div>
+                    </div>
+                    <div class="box">
+                        <div class="front"><span class="icon-social-twitter"></span></div>
+                        <div class="back"></div>
+                    </div>
+                    <div class="box">
+                        <div class="front"><span class="icon-whatsapp"></span></div>
+                        <div class="back"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo2">
+                <small>&copy; 2022 <b>Cake Maker</b> - Todos los Derechos Reservados.</small>
+            </div>
+    </footer>
+        
+</body>
+</html>
